@@ -1,0 +1,40 @@
+h2 {
+    text-align: center;
+}
+
+div > h2 {
+    font-family: cursive;
+    font-weight: normal;
+}
+
+
+.btn {
+    margin-top: 10px;
+    padding: 5px 5px;
+    color: green;
+}
+
+
+div {
+    text-align: center;
+    margin-top: 10px;
+}
+
+span {
+    font-size: 18px;
+    display: block;
+}
+
+.color {
+    display: inline;
+    margin-right: 10px;
+}
+
+ol, ul {
+    border: 1px solid green;
+}
+
+
+button:hover {
+    background-color: orange;
+}

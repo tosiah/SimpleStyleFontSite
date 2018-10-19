@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Los Colores</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <script src="myscript.js"></script>
+    </head>
+    <body>
+        <div>
+            <h2 id="name"></h2>
+        </div>
+        
+        <div>
+            <h5>Favourite color</h5>
+        </div>
+        <div>
+            <select id="color-changer">
+                <option value="black">Black</option>
+                <option value="red">Red</option>
+                <option value="green">Green</option>
+                <option value="violet">Violet</option>
+                <option value="blue">Blue</option>
+            </select>
+        </div>
+        
+        <div>
+            <h6>Additional options</h6>
+            <span>Thickness</span>
+                <label for="normal">Normal</label>
+                    <input name="weight" class="weight" type="radio" value="normal">
+                <label for="bold">Bold</label>
+                    <input name="weight" class="weight" type="radio" value="bold">
+            <span>Intensity</span>
+                <label for="dark">Dark</label>
+                    <input name="intensity" class="intensity" type="radio" value="dark">
+                <label for="light">Light</label>
+                    <input name="intensity" class="intensity" type="radio" value="light">  
+            <span>Font</span>
+                <label for="fantasy">Fantasy</label>
+                    <input name="font" class="font" type="radio" value="fantasy">
+                <label for="serif">Serif</label>
+                    <input name="font" class="font" type="radio" value="serif"> 
+        </div>
+    </body>
+</html>
